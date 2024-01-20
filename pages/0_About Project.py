@@ -32,6 +32,23 @@ def run():
             The model structure is laid out as follows:
     """
     )
+    st.write("## Dataset")
+
+    st.markdown("""The dataset is acquired from [Kaggle](https://www.kaggle.com/datasets/drizasazanitaisa/dyslexia-handwriting-dataset).\\
+                The dataset contains a total of 208342 images classified into 3 classes, which are as follows:\\
+                - Normal
+                - Reversal
+                - Corrected\\
+                
+                However, for this project, the dataset is modified to only contain 2 classes, which are as follows:\\
+                
+                - Potentially Dyslexic
+                - Non-Dyslexic\\
+
+                    
+                """)
+        
+    
 
     st.write("## Model Structure")
 
