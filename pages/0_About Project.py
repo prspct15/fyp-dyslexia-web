@@ -34,19 +34,20 @@ def run():
     )
     st.write("## Dataset")
 
-    st.markdown("""The dataset is acquired from [Kaggle](https://www.kaggle.com/datasets/drizasazanitaisa/dyslexia-handwriting-dataset).\\
-                The dataset contains a total of 208342 images classified into 3 classes, which are as follows:\\
-                
+    st.markdown("""The dataset is acquired from [Kaggle](https://www.kaggle.com/datasets/drizasazanitaisa/dyslexia-handwriting-dataset).
+                The dataset contains a total of 208342 images classified into 3 classes, which are as follows:
+                """)
+    
+    st.markdown("""
                 - Normal
                 - Reversal
-                - Corrected\
-                
-                However, for this project, the dataset is modified to only contain 2 classes, which are as follows:\\
-                
-                - Potentially Dyslexic
-                - Non-Dyslexic\
+                - Corrected""")
+    
+    st.write("However, for this project, the dataset is modified to only contain 2 classes, which are as follows:")
 
-                    
+    st.markdown("""
+                - Potentially Dyslexic
+                - Non-Dyslexic
                 """)
         
     
