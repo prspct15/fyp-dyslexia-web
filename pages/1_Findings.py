@@ -6,7 +6,7 @@ def run():
         page_icon="🔍",
     )
 
-    st.title("About Project")
+    st.title("Findings")
     st.sidebar.title("CS259 Final Year Project")
 
     st.write("The experiments ran and has returned these results:")
