@@ -4,7 +4,7 @@ import os
 def run():
     st.set_page_config(
         page_title="About Project",
-        page_icon="💻",
+        page_icon="📕",
     )
 
     st.title("About Project")
