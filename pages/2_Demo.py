@@ -22,6 +22,7 @@ def load_model():
 def application():
     model = load_model()
     st.write("## Upload your handwriting sample")
+    st.write("Make sure the sample uploaded is a single letter image, as the model is capable to classifying off a single sample, as seen from the examples below:")
     uploaded_file = st.file_uploader("Choose a file", type=['png', 'jpg', 'jpeg'])
     if uploaded_file is not None:
         image = tf.io.decode_image(uploaded_file.read(), channels=3)
