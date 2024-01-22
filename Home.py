@@ -38,6 +38,7 @@ def run():
         **This project is made in partial fulfilment of the requirements for the degree of Bachelor of Information Systems (Hons.) Intelligent Systems Engineering**.
         ### Want to discover more about the project?
         Check out the [GitHub repository](https://github.com/prspct15/fyp-dyslexia).\\
+        \\
         The GitHub repository contains everything related to the Final year Project.
     """
     )
